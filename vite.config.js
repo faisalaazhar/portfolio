@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // e.g. github.com/faisalaazhar/my-portfolio → base: '/my-portfolio/'
 export default defineConfig({
   plugins: [react()],
-  base: '/https://github.com/faisalaazhar/portfolio.git/', // ← UPDATE to match your repo name
+  base: '/portfolio/', // ← UPDATE to match your repo name
 })
