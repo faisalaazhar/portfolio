@@ -4,7 +4,7 @@ import { defaultData } from '../data/portfolioData';
 const PortfolioContext = createContext(null);
 
 const STORAGE_KEY = 'faisal_portfolio_data';
-const ADMIN_PASSWORD = 'faisal2024'; // Change this!
+const ADMIN_PASSWORD = 'r!tu*'; // Change this!
 
 function loadData() {
   try {

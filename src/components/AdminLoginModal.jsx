@@ -49,10 +49,6 @@ export default function AdminLoginModal({ onClose }) {
             Enter Admin Mode
           </button>
         </form>
-        <p className="text-[0.72rem] text-bark-muted mt-4 text-center">
-          Default password: <code className="bg-sand px-1 rounded">faisal2024</code><br/>
-          Change it in <code className="bg-sand px-1 rounded">PortfolioContext.jsx</code>
-        </p>
       </div>
     </div>
   );
