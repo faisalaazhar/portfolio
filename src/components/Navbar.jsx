@@ -35,7 +35,7 @@ export default function Navbar() {
       >
         <div className="max-w-6xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="font-serif italic text-terra text-lg tracking-tight">
+          <a href="#" className="font-serif italic text-terra text-xl tracking-tight">
             {data.personal.shortName}.dev
           </a>
 
@@ -45,7 +45,7 @@ export default function Navbar() {
               <li key={l.href}>
                 <a
                   href={l.href}
-                  className="text-[0.78rem] font-medium uppercase tracking-widest text-bark-light hover:text-terra transition-colors"
+                  className="text-[0.9rem] font-medium uppercase tracking-widest text-bark-light hover:text-terra transition-colors"
                 >
                   {l.label}
                 </a>
@@ -69,7 +69,7 @@ export default function Navbar() {
                 className="hidden md:flex items-center gap-1.5 text-[0.75rem] font-medium text-bark-muted hover:text-terra transition-colors"
                 title="Admin mode"
               >
-                <Settings size={14} />
+                <Settings size={18} />
               </button>
             )}
 

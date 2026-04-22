@@ -11,11 +11,12 @@ export const defaultData = {
     tagline: 'I build robust, user-centred web applications with Java, Spring Boot, Angular, and modern JavaScript.',
     email: 'faisalazhar.itu@gmail.com',
     phone: '07946 746 605',
-    location: 'Southall, Greater London, UB2 4WN',
-    linkedin: 'https://linkedin.com/in/faisalaazhar',  // update with real URL
+    location: 'Edgbaston, Birmingham, UK',
+    linkedin: 'https://linkedin.com/in/faisalahmed300',
     github: 'https://github.com/faisalaazhar',
+    resumeUrl: 'https://1drv.ms/w/c/009a04cd32914aae/IQCLRb90U6f5Q49_VNkM_AS7AT6KaWIAqnFtAuHHHs9efvc?download=1',
     status: 'available',   // "available" | "working" | "open"   — controls the hero badge
-    image: './profile.jpg', // place your photo in /public/profile.jpg
+    image: './profile.jpg', // hero section photo
     bio: `I am a dedicated Full Stack Software Developer with over a year and a half of hands-on experience building web applications. I have been developing software since my bachelor's degree, and my recent employment at Era InfoTech allowed me to level my experience further — working with Java, Spring Boot, and Angular on core banking solutions.\n\nI am always looking for new ways to grow and improve my skills. I am excited to find a place where I can use my experience to help a team succeed and create excellent solutions.`,
   },
 
